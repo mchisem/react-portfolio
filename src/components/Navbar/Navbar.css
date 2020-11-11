@@ -1,0 +1,34 @@
+.root {
+    height: 100vh;
+    /* height: 224px; */
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.tabs {
+    border-right: 1px solid black;
+}
+
+#home,
+#about,
+#portfolio,
+#contact {
+    width: 100%;
+}
+
+#home {
+    background-color: violet;
+}
+
+#about {
+    background-color: yellowgreen;
+}
+
+#portfolio {
+    background-color: blue;
+}
+
+#contact {
+    background-color: brown;
+}
