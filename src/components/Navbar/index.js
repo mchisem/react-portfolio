@@ -1,13 +1,12 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import Card from '../Card'
 
 import './Navbar.css';
-// simport { Router } from '@material-ui/icons';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -77,6 +76,9 @@ export default function VerticalTabs() {
       <TabPanel id="portfolio" value={value} index={2}>
         <div>
             <h1>Portfolio</h1>
+            <p>Below are links to projects I have done over the course of my web development career.</p>
+            <br></br>
+            <Card />
         </div>
       </TabPanel>
       <TabPanel id="contact" value={value} index={3}>
