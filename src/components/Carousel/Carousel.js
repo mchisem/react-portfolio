@@ -2,7 +2,7 @@ import React from "react";
 import { MDBCard, MDBCardImage, MDBCardBody, MDBCarousel, MDBCarouselInner, 
     MDBCarouselItem, MDBContainer,MDBView, MDBCardTitle, MDBCardGroup, MDBCardText } from "mdbreact";
 
-    import "./Carousel.css"
+import "./Carousel.css"
 
 const CarouselPage = () => {
 
