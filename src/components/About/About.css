@@ -1,0 +1,37 @@
+#about-cont {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+#about-card-cont {
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* height: auto; */
+    padding: 5%;
+    /* background-color: violet; */
+    max-width: 345px;
+    border-radius: 0% !important;
+    box-shadow: none !important;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#content {
+    flex: '1 0 auto';
+}
+
+#cover {
+    width: 50vw;
+    height: auto;
+}
+
+#card-actions {
+    justify-content: center;
+}

@@ -1,41 +1,20 @@
-.PrivateTabIndicator-colorSecondary-3 {
-    background-color: #f50057;
-    background-color: rgb(68, 187, 255) !important;
-    width: 100% !important;
-    opacity: 0.5;
-}
-
-.root {
-    height: 100vh;
-    /* height: 224px; */
-    display: flex;
-    flex-grow: 1;
-    background-color: white;
-}
-
-.tabs {
-    border-right: 1px solid black;
-}
-
-#home,
-#about,
-#portfolio,
-#contact {
+#root {
     width: 100%;
+    flex-grow: 1;
 }
 
-#home {
-    background-color: violet;
+.MuiAppBar-colorPrimary {
+    position: fixed !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    color: black !important;
+    z-index: 99999 !important;
 }
 
-#about {
-    background-color: yellowgreen;
+.MuiToolbar-regular {
+    min-height: 64px;
 }
 
-#portfolio {
-    background-color: white;
-}
-
-#contact {
-    background-color: brown;
+#middle-title {
+    flex-grow: 1;
 }
