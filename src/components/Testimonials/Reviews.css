@@ -1,0 +1,45 @@
+#review-cont {
+    /* position: relative; */
+    justify-content: center !important;
+    padding: 3%;
+    padding-bottom: 5%;
+    padding-top: 0%;
+    display: flex !important;
+    /* flex-wrap: wrap !important; */
+    /* flex-direction: row !important; */
+    max-width: 100% !important;
+    height: auto;
+}
+
+.review {
+    border-radius: 0% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    box-shadow: none !important;
+    height: fit-content !important;
+    width: 25vw !important;
+}
+
+.MuiAvatar-root {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 5%;
+}
+
+.stars {
+    display: flex;
+}
