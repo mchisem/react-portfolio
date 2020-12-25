@@ -29,6 +29,9 @@ export default function RecipeReviewCard() {
           <StarIcon></StarIcon>
           <StarIcon></StarIcon>
       </CardActions>
+      <a href="https://docs.google.com/document/d/1PtiQZwzOEzbH0tE27GN5v6nI0eb3fZMtttzrr2C-asE/edit">
+        Resume
+      </a>
     </Card>
     </div>
   );

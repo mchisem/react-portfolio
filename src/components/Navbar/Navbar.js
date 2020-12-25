@@ -13,7 +13,7 @@ export default function ButtonAppBar() {
       <AppBar position="fixed">
         <Toolbar>
           <Button edge="start" color="inherit" aria-label="menu">
-            <Link id="title" to="/">
+            <Link to="/" id="title">
                 MC
             </Link>
           </Button>
