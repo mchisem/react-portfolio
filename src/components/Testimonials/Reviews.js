@@ -7,8 +7,13 @@ import "./Reviews.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
+    // display: 'flex',
+    // flexWrap: 'wrap',
+    // maxWidth:"100%",
+    // justifyContent: "center",
+    // alignContent: "center",
+    // backgroundColor: "blue",
+    // textAlign: "center",
     '& > *': {
       margin: theme.spacing(1),
       width: theme.spacing(16),

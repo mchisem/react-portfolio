@@ -1,14 +1,11 @@
 /* #review-cont {
-    position: relative;
     justify-content: center !important;
     padding: 3% !important;
     padding-bottom: 5%;
     padding-top: 0%;
     display: flex !important;
     flex-wrap: wrap !important;
-    flex-direction: row !important;
     max-width: 100% !important;
-    height: auto;
 } */
 
 .review {
@@ -17,10 +14,10 @@
     align-items: center !important;
     display: flex !important;
     flex-direction: column !important;
-    flex-wrap: wrap !important;
+    /* flex-wrap: wrap !important; */
     box-shadow: none !important;
     height: fit-content !important;
-    width: 25vw !important;
+    /* width: 25vw !important; */
 }
 
 /* .MuiAvatar-root {
@@ -44,12 +41,13 @@
     display: flex;
 }
 
-/* .makeStyles-root-1 { */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+.makeStyles-root-1 {
+    display: flex;
+    flex-wrap: wrap;
     /* flex-wrap: nowrap !important; */
-    /* height: fit-content !important; */
-    /* max-width: 100% !important; */
-    /* justify-content: center !important; */
-    /* padding: 5%; */
-/* } */
+    height: fit-content !important;
+    max-width: 100% !important;
+    justify-content: center !important;
+    padding: 5%;
+    padding-top: 0%;
+}
