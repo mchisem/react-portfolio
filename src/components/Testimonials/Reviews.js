@@ -37,6 +37,7 @@ export default function SimplePaper() {
         <h4>Taylor Johnson</h4>
         <p style={{padding:"0", margin:"0"}}>Sr. Content Creator at Shopkick</p>
       </Paper>
+      <br></br>
       <Paper className="review">
         <p>
             "Maya's ability to create beautiful and striking app designs is truly impressive. I had the pleasure of attending the UCLA Full Stack Coding Bootcamp with Maya, while we did not work on any projects together, I was able to see her passion for design in all of her work. Maya embodies the essence of what an ideal team player is, her ability to encourage people and create a supportive and inviting environment is a true value. No matter the situation, I know Maya is someone I can go to who will be ready to listen and ready to lend a helping hand. I would recommend Maya for any role as a Software Developer, she would be a valuable asset to any company."
@@ -52,6 +53,7 @@ export default function SimplePaper() {
         <h4>Ana Valdivia</h4>
         <p style={{padding:"0", margin:"0"}}>Business Analyst at Amazon</p>
       </Paper>
+      <br></br>
       <Paper className="review">
         <p>"Maya is a charismatic, detail-oriented creative. I have worked with Maya on several projects and she has always brought fresh innovative ideas and isn't scared to take the necessary risks to get them done. She is proactive and diligent in her work, this makes project flow very easy. I will continue working with Maya in the future."</p>
         <Avatar className="avatar" alt="Taylor Miranda" src="https://media-exp1.licdn.com/dms/image/C5603AQHz48mm5e4mQA/profile-displayphoto-shrink_400_400/0/1571379644976?e=1614211200&v=beta&t=wWzjEdGFENxetdO3z1hE494tzmpF38mayFD5X7lsweY" />
