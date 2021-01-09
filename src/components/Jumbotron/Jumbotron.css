@@ -1,7 +1,7 @@
 #jumbotron {
-    /* background-image: url(../../assets/images/three-beams.JPG); */
+    background-image: url(../../assets/images/three-beams.JPG);
     /* background-image: url(https://images.unsplash.com/photo-1542649350-a24209ce01b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80); */
-    background-image: url(https://images.unsplash.com/photo-1512945684666-a5a3d6b1ed93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1512945684666-a5a3d6b1ed93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80); */
     /* background-image: url(../../assets/images/me-blank-background.JPG); */
     height: 100vh;
     background-position: center;
